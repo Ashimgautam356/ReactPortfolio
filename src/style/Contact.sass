@@ -1,0 +1,73 @@
+@import url(./Global.sass)
+.contact
+    position: absolute
+    display: flex
+    // border:1px solid white
+    width: 100vw
+    min-height: 85vh
+    flex-direction: row
+    padding: 2.4rem
+    .contact-left
+        width: 50%
+        // border:1px solid blue
+        h1
+            font-size: 2rem
+            font-weight: 300
+            span
+                color: var(--red)
+        form
+            margin-top: 4rem
+            font-size: 1.3rem  
+            // border: 1px solid red
+            width: max-content
+            .div
+                // border: 1px solid red
+                margin-top: 3rem 
+                            
+            input
+                border: none
+                border-bottom: 1px solid white
+                background-color: var(--background)
+                // line-height: 4rem
+                font-size: 1.3rem
+                // width: 100% 
+                &:focus
+                    outline: none
+            button
+                height: 5vh
+                width: 6vw
+                margin: 4rem 0 0 0 
+                border: 1px solid white
+                background-color: var(--background)
+                font-size: 1rem
+                text-transform: uppercase
+                border-radius: 5px
+                cursor: pointer
+
+
+    .contact-right
+        width: 50%
+        // border:1px solid yellow
+        display: flex
+        flex-direction: column
+        align-items: center
+        h1
+            font-size: 2rem
+            font-weight: 300
+            span
+                color: var(--red)
+        .social-media
+            margin-top: 4rem
+            display: flex
+            flex-direction: column
+            // border: 1px solid red
+            justify-content: space-between  
+            width: 50%
+            height: 55%
+            div
+                display: flex
+                justify-content: space-between
+            a
+                // border: 1px solid green
+                font-size: 5rem
+                // padding: 1rem

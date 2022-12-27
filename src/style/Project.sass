@@ -1,0 +1,41 @@
+@import url(./Global.sass)
+.project 
+    // border: 1px solid white
+    position: absolute
+    width: 100vw
+    height: max-content
+    display: flex
+    flex-direction: column
+    padding: 2.4rem
+    .perception
+        // border: 1px solid blue
+        h2
+            font-weight: 300
+            span
+                color: var(--red)
+        p
+            margin-top: 1rem    
+    .projectList
+        margin-top: 2.4rem
+        // border: 1px solid yellowgreen
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+        flex-wrap: wrap
+        div
+            border: 1px solid white
+            border-radius: 8px
+            height: 60vh
+            width: 25vw
+            text-align: center
+            background-color: var(--projectbg)
+            display: flex
+            flex-direction: column
+            justify-content: space-evenly
+            padding: 0 1rem 0 1rem
+            cursor: pointer
+            p
+                font-size: 5rem
+            h1
+                font-size: 2rem
+                font-weight: 400 

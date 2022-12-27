@@ -1,0 +1,39 @@
+.service
+    position: absolute
+    width:100vw
+    min-height: 85vh
+    // border:1px solid yellow
+    display: flex
+    justify-content: center
+    align-items: center
+    .outerbox
+        width: 90vw
+        // border: 1px solid blue
+        display: flex
+        flex-direction: row
+        position: relative
+        justify-content: space-between
+        :nth-child(2)
+            :nth-child(2)
+                text-align: center
+        .insidebox
+            height: 50vh
+            width: 20vw
+            // border: 1px solid red
+            div
+                height: 100%
+                width: 100%
+                border: 1px solid white
+                position: relative
+                border-radius: 8px
+
+                img
+                    position: absolute
+                    height: 100%
+                    width:100%
+                    object-fit: contain
+                    object-position: center
+            p
+                margin-top: 1rem
+                font-size: 1.3rem
+                font-weight: 500
