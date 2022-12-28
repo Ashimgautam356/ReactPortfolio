@@ -1,6 +1,5 @@
 import React from 'react'
 import '../style/Contact.sass'
-import {Link } from 'react-router-dom'
 import { FaFacebook ,FaGithub,FaInstagram,FaLinkedin } from "react-icons/fa";
 const Contact = () => {
   return (
@@ -23,7 +22,10 @@ const Contact = () => {
                     <input type="text" />
                 </div>
                 
+                <div className='btn'>
                 <button>Send</button>
+                </div>
+                
             </form>
         </div>
         <div className='contact-right'>
