@@ -8,10 +8,10 @@ import Service from './pages/Service'
 import Contact from './pages/Contact'
 import './App.sass'
 import './style/Responsive.sass'
-import {Routes, Route}from 'react-router-dom'
+import {BrowserRouter as Router , Routes, Route}from 'react-router-dom'
 const App = () => {
   return (
-    <>
+    <Router>
       <Nav></Nav>
       <Routes>
         <Route path='/' element={ <Hero></Hero> }></Route>
@@ -21,7 +21,7 @@ const App = () => {
         <Route path='/contact' element={<Contact />}></Route>
       </Routes>
       <Footer></Footer>
-    </>
+    </Router>
   )
 }
 
