@@ -16,7 +16,11 @@ const Aboutme = () => {
     </div>
     <div className='discreption'>
       <p> 
-"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+"Hello,
+<br />
+My name is Ashim Gautam and I am a full stack developer based in Nepal. I have been working in the tech industry for approximately 1 year and have gained expertise in various technologies such as HTML, CSS, JavaScript, React, Bootstrap, SASS, Tailwind, Git, GitHub, C++, and Figma.
+<br />
+I am passionate about constantly learning and improving my skills in order to excel in my field. Thank you for visiting my portfolio website. If you have any questions, please do not hesitate to reach out
 </p>
 </div>
    </section>

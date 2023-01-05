@@ -1,8 +1,9 @@
 import React from 'react';
 import '../style/Nav.sass'
 import {Link} from 'react-router-dom'
-import { VscMenu } from "react-icons/vsc";
-const Nav = () => {
+// import { VscMenu } from "react-icons/vsc";
+const Nav = () =>{
+
   return (
    <nav>
     <div className='logo'>
@@ -15,9 +16,6 @@ const Nav = () => {
             <li><Link to="/service">Services</Link></li>
             <li><Link to="/contact">Contact</Link></li>
         </ul>
-    </div>
-    <div className='mobileNavDesign'>
-      <p><VscMenu /></p> 
     </div>
    </nav>
   )
